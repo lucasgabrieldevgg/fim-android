@@ -13,12 +13,14 @@ android {
     compileSdkVersion 36
 
     defaultConfig {
-        applicationId "io.heckel.ntfy"
+        // Fim! fork (of binwiederhier/ntfy-android, Apache 2.0): applicationId
+        // differs from the upstream namespace so both apps install side-by-side.
+        applicationId "gg.lucasgabrieldevgg.fim"
         minSdkVersion 26
         targetSdkVersion 36
 
         versionCode 63
-        versionName "1.25.2"
+        versionName "1.25.2-fim.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
